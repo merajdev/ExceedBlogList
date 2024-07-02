@@ -1,0 +1,244 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 2px solid #FFF !important;
+    background-color: transparent !important;
+}
+
+.carousel-indicators .active {
+    background-color: #FFF !important;
+}
+
+#blogList #section-1 {
+    background: url('/images/section-1-mob.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+    padding-bottom: 48px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#blogList #section-1 h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#blogList #section-1 p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+}
+
+
+#section-1 span {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+
+#blogList #section-1 .primary-btn {
+    border: none;
+    border-radius: 6px;
+    background: #F18234;
+    color: white;
+    padding: 14px 32px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 18px;
+}
+
+
+#blogList h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 32px 0 18px 0;
+}
+
+#blogList #section-2 h2 span {
+    color: #85C7F7;
+}
+
+#blogList h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+#blogList p {
+    color: #707070;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+#blogList .duration,
+#blogList .views {
+    color: #707070;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+}
+
+#blogList #section-2 .latest-blog {
+    display: flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+}
+
+#blogList #section-2 .cards {
+    min-width: 325px;
+    padding: 0 7px;
+}
+
+#blogList .blog-img {
+    margin-bottom: 14px;
+}
+
+#blogList #section-3 h2 span {
+    color: #F18234;
+}
+
+#blogList #section-3 .popular-blogs {
+    display: flex;
+    overflow: auto;
+    gap: 16px;
+}
+
+#blogList #section-3 .popular-blogs .blog-card {
+    min-width: 325px;
+    margin-bottom: 24px;
+}
+
+#blogList #section-3 .outline-btn {
+    background-color: transparent;
+    padding: 12px 18px;
+    color: #F18234;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    border-radius: 6px;
+    border: 1px solid #F18234;
+    margin-top: 14px;
+}
+
+@media (min-width: 768px) {
+    #blogList #section-1 {
+        background: url('/images/section-1.png') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #blogList #section-1 h1 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+
+    #section-1 span {
+        font-size: 16px;
+    }
+
+    #blogList #section-1 .transparent-card {
+        background: rgba(255, 255, 255, 0.16);
+        border-radius: 8px;
+        margin-bottom: 14px;
+        transition: background-color 0.3s ease;
+
+    }
+
+    #blogList #section-1 .transparent-card h6 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        padding: 16px 16px 0 12px;
+        margin-bottom: 4px;
+    }
+
+    #blogList #section-1 .transparent-card button {
+        width: 24px;
+        height: 24px;
+        border: none;
+        border-radius: 4px 0 8px 0;
+        background-color: #FFFFFF4D;
+        transition: background-color 0.3s ease;
+
+    }
+
+    #blogList #section-1 .transparent-card:hover {
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.40);
+
+    }
+
+    #blogList #section-1 .transparent-card:hover button {
+        background-color: #34A2F1;
+    }
+
+
+    #blogList h2 {
+        font-size: 32px;
+        margin: 52px 0 18px 0;
+    }
+
+    #blogList h2 span {
+        color: #85C7F7;
+    }
+
+    #blogList h3 {
+        font-size: 16px;
+    }
+
+    #blogList #section-2 .latest-blog {
+        display: flex;
+        overflow: hidden;
+    }
+
+    #blogList #section-2 .cards {
+        padding: 0 9px;
+    }
+
+
+    #blogList #section-3 .popular-blogs {
+        display: block;
+    }
+
+    #blogList #section-3 .outline-btn {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
