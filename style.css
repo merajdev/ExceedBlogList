@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel-indicators button {
+#blogList .carousel-indicators button {
     width: 12px !important;
     height: 12px !important;
     border-radius: 50%;
@@ -10,7 +10,7 @@ body {
     background-color: transparent !important;
 }
 
-.carousel-indicators .active {
+#blogList .carousel-indicators .active {
     background-color: #FFF !important;
 }
 
@@ -119,6 +119,7 @@ body {
 
 #blogList .blog-img {
     margin-bottom: 14px;
+    border-radius: 12px;
 }
 
 #blogList #section-3 h2 span {
