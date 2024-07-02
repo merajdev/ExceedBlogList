@@ -15,7 +15,7 @@ body {
 }
 
 #blogList #section-1 {
-    background: url('/images/section-1-mob.png') no-repeat center center;
+    background: url('images/section-1-mob.png') no-repeat center center;
     background-size: cover;
     color: #ffffff;
     height: 100vh;
@@ -153,7 +153,7 @@ body {
 
 @media (min-width: 768px) {
     #blogList #section-1 {
-        background: url('/images/section-1.png') no-repeat center center;
+        background: url('images/section-1.png') no-repeat center center;
         background-size: cover;
         display: flex;
         align-items: center;
